@@ -23,7 +23,7 @@ const Navbar = () => {
 
   return (
     <div className='flex justify-evenly items-center py-5 bg-amber-100 w-screen h-fit'>
-      <h1>Lunar Intern</h1>
+      <h1>Lunar Intern </h1>
        <div className='flex gap-5'>
         {
           navItem?.map((data,index)=>{

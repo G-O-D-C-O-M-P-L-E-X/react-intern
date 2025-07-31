@@ -7,6 +7,8 @@ import Home from './pages/Home'
 import Login from './pages/Login'
 import NotFound from './pages/NotFound'
 import Navbar from './components/Navbar'
+import AboutUs from './pages/AboutUs'
+import ContactUs from './pages/ContactUs'
 
 function App() {
   return(
@@ -15,6 +17,9 @@ function App() {
     <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='Login' element={<Login/>}/>
+      <Route path='About' element={<AboutUs/>}/>
+      <Route path='Contact' element={<ContactUs/>}/>
+
       <Route path='*' element={<NotFound/>}/>
     </Routes>
 

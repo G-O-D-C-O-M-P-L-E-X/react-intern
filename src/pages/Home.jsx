@@ -10,10 +10,10 @@ const Home = () => {
     }
   },[]);
   return (
-    <div className='flex justify-center items-center'>
+    <div className='flex justify-center items-center gap-10'>
       {/* <Child data="Hello"/> */}
-      <h1>user data:{storedInfo?.name}</h1> <br />
-      <h1>pass:{storedInfo?.password}</h1>
+      <h1>user data: {storedInfo?.name}</h1> 
+      <h1>pass: {storedInfo?.password}</h1>
     </div>
   )
 }
