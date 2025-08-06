@@ -9,6 +9,7 @@ import NotFound from './pages/NotFound'
 import Navbar from './components/Navbar'
 import AboutUs from './pages/AboutUs'
 import ContactUs from './pages/ContactUs'
+import Post from './pages/Post'
 
 function App() {
   return(
@@ -19,6 +20,7 @@ function App() {
       <Route path='Login' element={<Login/>}/>
       <Route path='About' element={<AboutUs/>}/>
       <Route path='Contact' element={<ContactUs/>}/>
+      <Route path='Post' element={<Post/>}/>
 
       <Route path='*' element={<NotFound/>}/>
     </Routes>
