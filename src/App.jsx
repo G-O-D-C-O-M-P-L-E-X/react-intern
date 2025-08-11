@@ -1,6 +1,4 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
@@ -10,6 +8,7 @@ import Navbar from './components/Navbar'
 import AboutUs from './pages/AboutUs'
 import ContactUs from './pages/ContactUs'
 import Post from './pages/Post'
+import Counter from './pages/Counter'
 
 function App() {
   return(
@@ -21,6 +20,7 @@ function App() {
       <Route path='About' element={<AboutUs/>}/>
       <Route path='Contact' element={<ContactUs/>}/>
       <Route path='Post' element={<Post/>}/>
+      <Route path='Counter' element={<Counter/>}/>
 
       <Route path='*' element={<NotFound/>}/>
     </Routes>
