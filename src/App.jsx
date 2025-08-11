@@ -9,6 +9,7 @@ import AboutUs from './pages/AboutUs'
 import ContactUs from './pages/ContactUs'
 import Post from './pages/Post'
 import Counter from './pages/Counter'
+import Todos from './pages/Todos'
 
 function App() {
   return(
@@ -21,6 +22,7 @@ function App() {
       <Route path='Contact' element={<ContactUs/>}/>
       <Route path='Post' element={<Post/>}/>
       <Route path='Counter' element={<Counter/>}/>
+      <Route path='Todos' element={<Todos/>}/>
 
       <Route path='*' element={<NotFound/>}/>
     </Routes>
